@@ -2,18 +2,6 @@
 
 First and foremost, thank you! We appreciate that you want to contribute to github-template-javascript, your time is valuable, and your contributions mean a lot to us.
 
-
-## Important!
-
-By contributing to this project, you:
-
-* Agree that you have authored 100% of the content
-* Agree that you have the necessary rights to the content
-* Agree that you have received the necessary permissions from your employer to make the contributions (if applicable)
-* Agree that the content you contribute may be provided under the Project license(s)
-* Agree that, if you did not author 100% of the content, the appropriate licenses and copyrights have been added along with any other necessary attribution.
-
-
 ## Getting started
 
 **What does "contributing" mean?**
@@ -25,15 +13,6 @@ Creating an issue is the simplest form of contributing to a project. But there a
 - Bug reports
 
 If you'd like to learn more about contributing in general, the [Guide to Idiomatic Contributing](https://github.com/jonschlinkert/idiomatic-contributing) has a lot of useful information.
-
-**Showing support for github-template-javascript**
-
-Please keep in mind that open source software is built by people like you, who spend their free time creating things the rest the community can use.
-
-Don't have time to contribute? No worries, here are some other ways to show your support for github-template-javascript:
-
-- star the [project](https://github.com/Pterobyte/github-template-javascript)
-- tweet your support for github-template-javascript
 
 
 ## Issues
@@ -100,6 +79,3 @@ At the very least, please try to:
 
 - Use backticks to wrap code. This ensures that it retains its formatting and isn't modified when it's rendered by GitHub, and makes the code more readable to others
 - When applicable, use syntax highlighting by adding the correct language name after the first "code fence"
-
-
-[so]: http://stackoverflow.com/questions/tagged/github-template-javascript
