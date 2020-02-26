@@ -14,7 +14,6 @@ Creating an issue is the simplest form of contributing to a project. But there a
 
 If you'd like to learn more about contributing in general, the [Guide to Idiomatic Contributing](https://github.com/jonschlinkert/idiomatic-contributing) has a lot of useful information.
 
-
 ## Issues
 
 Please only create issues for bug reports or feature requests. Issues discussing any other topics may be closed by the project's maintainers without further explanation.
@@ -51,7 +50,6 @@ Please be as descriptive as possible when creating an issue. Give us the informa
 - **error messages**: (required) please paste any error messages into the issue, or a [gist](https://gist.github.com/)
 - **extensions, plugins, helpers, etc** (if applicable): please list any extensions you're using
 
-
 ### Closing issues
 
 The original poster or the maintainers of github-template-javascript may close an issue at any time. Typically, but not exclusively, issues are closed when:
@@ -60,7 +58,6 @@ The original poster or the maintainers of github-template-javascript may close a
 - The project's maintainers have determined the issue is out of scope
 - An issue is clearly a duplicate of another issue, in which case the duplicate issue will be linked.
 - A discussion has clearly run its course
-
 
 ## Next steps
 

@@ -1,4 +1,4 @@
-# [![Akkadu](https://res.cloudinary.com/jthouk/image/upload/e_improve,w_30,h_30/v1570345513/Logos/akkadu-logo-white-simple.png)](https://akkadu.com) Github Template Javascript
+# [![Akkadu][akkadu-logo]][akkadu-url] Github Template Javascript
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -19,7 +19,7 @@
 [![styled with prettier][prettier-shield]][prettier-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-This is a template repository for Javascript projects
+Get started on Javascript projects at Akkadu much quicker by using this template repository.
 
 [Explore the docs »](https://github.com/Akkadu/github-template-javascript)
 
@@ -45,15 +45,17 @@ This is a template repository for Javascript projects
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+This is a project designed to reduce new project overhead, decrease cost of project maintenance, and enforce standardization of project management tools (e.g. linters, READMEs, Issue templates, etc.).
 
 Here's why:
+
+Spending time writing a good README shouldn't be a pain for every new project on our platform. If you add PR templates, Issue templates, lint configs, .gitignore files, etc., the task of creating new repositories eventually becomes hours of finding things to copy/paste.
 
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+This is by no means a one-size-fits-all solution, but it should get you started much quicker than trying to pull together the latest best practices from who knows where only to find out the standards are changing.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
@@ -101,24 +103,67 @@ yarn install
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://github.com/Akkadu/github-template-javascript)_
+Update your project's .github templates
+
+```sh
+mkdir -p .github
+echo 'Downloading latest "contributing.md"...'
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/contributing.md -o .github/contributing.md
+echo 'Downloading latest "issue_template.md"...'
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/issue_template.md -o .github/issue_template.md
+echo 'Downloading latest "pull_request_template.md"...'
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/pull_request_template.md -o .github/pull_request_template.md
+echo 'Success!'
+```
+
+Download the template README.md
+
+```sh
+curl -K https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/README.md -o README.md
+```
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Akkadu/github-template-javascript/issues) for a list of proposed features (and known issues)
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Want to make a change? Any contributions you make are **greatly appreciated**.
+
+1. Clone the repo
+2. Create your Feature Branch (`gco -b release/my-project`)
+3. Commit your Changes (`git commit -m 'add: small addition'`)
+4. Push to the Branch (`git push origin release/my-project`)
+5. Open a Pull Request
+
+<!-- AUTHORS -->
 ## Author
 
-👤 **JT Houk <jt1992@gmail.com> (https://jt.houk.space/)**
+👤 **JT Houk <jt1992@gmail.com>**
 
-* Website: https://jt.houk.space/
+* Website: [jt.houk.space](https://jt.houk.space/)
 * Twitter: [@HoukasaurusRex](https://twitter.com/HoukasaurusRex)
 * Github: [@HoukasaurusRex](https://github.com/HoukasaurusRex)
-* LinkedIn: [@JT Houk](https://linkedin.com/in/JT Houk)
+* LinkedIn: [@JT Houk](https://linkedin.com/in/jt-houk)
+
+<!-- DEPENDENCIES -->
+## Dependencies
+
+[![FOSSA Status][fossa-scan]][fossa-url]
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[akkadu-logo]: https://res.cloudinary.com/jthouk/image/upload/e_improve,w_30,h_30/v1570345513/Logos/akkadu-logo-white-simple.png
+[akkadu-url]: https://akkadu.com
 [netlify-shield]: https://api.netlify.com/api/v1/badges/db1500c5-d307-4fa7-acd0-60543ece4624/deploy-status
 [netlify-url]: https://app.netlify.com/sites/github-template-javascript/deploys
 [contributors-shield]: https://img.shields.io/github/contributors/Akkadu/github-template-javascript.svg?style=flat-square
@@ -133,8 +178,9 @@ See the [open issues](https://github.com/Akkadu/github-template-javascript/issue
 [license-url]: https://github.com/Akkadu/github-template-javascript/blob/master/LICENSE.txt
 [lgtm-shield]: https://img.shields.io/lgtm/grade/javascript/g/akkadu/github-template-javascript.svg?logo=lgtm&logoWidth=18
 [lgtm-url]: https://lgtm.com/projects/g/akkadu/github-template-javascript/context:javascript
-[fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fakkadu%2Fgithub-template-javascript.svg?type=shield
-[fossa-url]: https://app.fossa.com/projects/git%2Bgithub.com%2Fakkadu%2Fgithub-template-javascript?ref=badge_shield
+[fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FAkkadu%2Fgithub-template-javascript.svg?type=shield
+[fossa-url]: https://app.fossa.com/projects/git%2Bgithub.com%2FAkkadu%2Fgithub-template-javascript?ref=badge_shield
+[fossa-scan]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FAkkadu%2Fgithub-template-javascript.svg?type=large
 [version-shield]: https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000
 [maintenance-shield]: https://img.shields.io/badge/Maintained%3F-yes-green.svg
 [maintenance-url]: https://github.com/Akkadu/github-template-javascript/graphs/commit-activity
@@ -143,5 +189,5 @@ See the [open issues](https://github.com/Akkadu/github-template-javascript/issue
 [prettier-shield]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
 [prettier-url]: https://github.com/prettier/prettier
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/Akkadu
+[linkedin-url]: https://www.linkedin.com/company/akkadu/
 [product-screenshot]: https://raw.githubusercontent.com/ritaly/README-cheatsheet/master/img/screenshot.png

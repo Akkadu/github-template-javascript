@@ -1,7 +1,6 @@
 _(Thanks for reporting an issue to eslint-config-akkadu! If you haven't already read the [contributor guidelines](contributing.md), Please do that now, then procede to fill out the details below.)_
 
-## Description
-
+# Description
 
 ## Please paste any error or log messages here
 
@@ -9,12 +8,12 @@ _(Thanks for reporting an issue to eslint-config-akkadu! If you haven't already 
 
 ## Steps to Reproduce the Problem
 
-  1.
-  1.
-  1.
+1.
+2.
+3.
 
 ## Specifications
 
-  - Version:
-  - Platform:
-  - Subsystem:
+- Version:
+- Platform:
+- Subsystem:
