@@ -1,5 +1,11 @@
-# Description
+---
+name: Pull request
+about: Open a new Pull Request
+title: "[WIP]: "
+labels: 
+assignees: ''
 
+---
 Please describe the purpose of the pull request.
 <!--- Provide a general summary of your changes in the Title above -->
 
