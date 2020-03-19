@@ -1,6 +1,6 @@
 {
   "name": "github-template-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template repository to base new Javascript projects on",
   "main": "index.js",
   "scripts": {
