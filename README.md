@@ -21,9 +21,9 @@
 
 Get started on Javascript projects at Akkadu much quicker by using this template repository.
 
-[Explore the docs »](https://github.com/Akkadu/github-template-javascript)
+[Explore the docs »][docs-url]
 
-[View Demo](https://github.com/Akkadu/github-template-javascript) • [Report Bug](https://github.com/Akkadu/github-template-javascript/issues) • [Request Feature](https://github.com/Akkadu/github-template-javascript/issues)
+[View Demo][product-url] • [Report Bug][issues-url] • [Request Feature][issues-url]
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -43,7 +43,7 @@ Get started on Javascript projects at Akkadu much quicker by using this template
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]][product-url]
 
 This is a project designed to reduce new project overhead, decrease cost of project maintenance, and enforce standardization of project management tools (e.g. linters, READMEs, Issue templates, etc.).
 
@@ -125,7 +125,7 @@ curl -K https://raw.githubusercontent.com/Akkadu/github-template-javascript/mast
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Akkadu/github-template-javascript/issues) for a list of proposed features (and known issues)
+See the [open issues][issues-url] for a list of proposed features (and known issues)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -191,3 +191,5 @@ Want to make a change? Any contributions you make are **greatly appreciated**.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/akkadu/
 [product-screenshot]: https://raw.githubusercontent.com/ritaly/README-cheatsheet/master/img/screenshot.png
+[product-url]: https://github.com/Akkadu/github-template-javascript
+[docs-url]: https://github.com/Akkadu/github-template-javascript
