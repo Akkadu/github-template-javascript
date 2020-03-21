@@ -106,13 +106,17 @@ Use this space to show useful examples of how a project can be used. Additional 
 Update your project's .github templates
 
 ```sh
+rm -rf .github
 mkdir -p .github
 echo 'Downloading latest "contributing.md"...'
 curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/contributing.md -o .github/contributing.md
-echo 'Downloading latest "issue_template.md"...'
-curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/issue_template.md -o .github/issue_template.md
 echo 'Downloading latest "pull_request_template.md"...'
 curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/pull_request_template.md -o .github/pull_request_template.md
+mkdir -p .github/ISSUE_TEMPLATE
+echo 'Downloading latest "bug_report.md"...'
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/ISSUE_TEMPLATE/bug_report.md -o .github/ISSUE_TEMPLATE/bug_report.md
+echo 'Downloading latest "feature_request.md"...'
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/.github/ISSUE_TEMPLATE/feature_request.md -o .github/ISSUE_TEMPLATE/feature_request.md
 echo 'Success!'
 ```
 
