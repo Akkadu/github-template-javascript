@@ -123,7 +123,7 @@ echo 'Success!'
 Download the template README.md
 
 ```sh
-curl -K https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/README.md -o README.md
+curl https://raw.githubusercontent.com/Akkadu/github-template-javascript/master/README.md -o README.md
 ```
 
 <!-- ROADMAP -->
